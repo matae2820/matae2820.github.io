@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <title>Ji Hyae's blog!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <div id= "container">
+    <header>
+      <div id= "home">
+        <a id "homepage" href= "http://matae2820.github.io/">Ji Hyae Yu | Home</a>
+      </div>
+    </header>
+      <div id= "navigation">
+        <a href= "http://matae2820.github.io"> Home</a>
+        <a href= "http://matae2820.github.io/blog">Blog</a>
+        <a href= "http://matae2820.github.io/resume">Resume</a>
+        <a href= "http://matae2820.github.io/socialnetwork">Social Network</a>
+      </div>
+    </div>
+
+      <div id= "content">
+        <h1>Enumerable#group_by</h1>
+        <h2>Technical Blog</h2>
+        <h3>May 4th, 2015</h3>
+
+        <section>
+          <p>
+            Ruby's Enumerable Module is another way of looping in your code.Enumerables are preferred over looping because it is easier to see what is going on.
+          </p>
+          <p>
+            Now, I will talk about the #group_by method. The #group_by method does just what it sounds like. It groups the data based on the block you input. The output is going to be a hash of strings, arrays or even numbers. Let's take a look at an example.
+          </p>
+          <p>
+            Let's say you have an array of numbers.
+          </p>
+            <xmp>
+              numbers = [1,2,3,4,5,6]
+            </xmp>
+          <p>
+            Now we are going to group these numbers using modulo (%). If you are unfamiliar with what a modulo is, you can think of it is the remainder. For example, when you do 6/3, there is no remainder. Therefore, 6%3 would be 0. However, 6/5 has a remainder of 1 so 6%5 would be 1. Now we are going to group the numbers array by using %. We are going to separate the numbers by the values of the modulo.
+          </p>
+            <xmp>
+              (1..6).group_by {|i| i%3}
+            </xmp>
+          <p>
+            So the numbers 1 through 6 are iterating through the loop and each number is getting modulo-ed by 3.
+          </p>
+            <xmp>
+              {0=>[3,6], 1=>[1,4], 2=>[2,5]}
+            </xmp>
+          <p>
+            As you can see, the #group_by method creates a hash that groups the number array based on the value of their modulo.
+      </div>
+    </section>
+  </main>
+</html>
+
