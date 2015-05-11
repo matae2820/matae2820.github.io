@@ -21,19 +21,47 @@
     </div>
 
       <div id= "content">
-        <h1>Post Title</h1>
+        <h1>Getting classy: What is a class</h1>
         <h2>Cultural Blog</h2>
-        <h3>May 9, 2015</h3>
+        <h3>May 10, 2015</h3>
 
         <section>
           <p>
-            <!-- insert title here -->
+            A class method is a method that resides at the class level, which is a first-class object. A class has to be meaningful and must do something that its instance variables must complete. Class is used because it is like an umbrella that includes all of the methods that do similar tasks. It is easier to understand with an example.
+            <xmp>
+              class Cube
+                def initialize(length, width, height)
+                  @length= length
+                  @width= width
+                  @height= height
+                end
+
+                def volume_of_rectangle
+                  @length* @width
+                end
+
+                def volume_of_cube
+                  @length* @width* @height
+                end
+              end
+            </xmp>
           </p>
           <p>
-            <!-- insert title here -->
+            As you can see from the code above, the variable names length, width, and height have an @ sign in front of it. This is because these are the instance variables of this Cube class. The instance variables allow us to use the variables length, width, and height in different methods. As you can see, length and width is used in both the volume_of_rectangle and volume_of_cube methods.
           </p>
           <p>
-            <!-- insert title here -->
+            To actually put this class into use and have the volume of the rectangle and volume of the cube print out, we must first create a new object.
+            <xmp>
+              new_cube= Cube.new(1,2,3)
+              new_cube.volume_of_rectangle
+              new_cube.volume_of_cube
+            </xmp>
+            The (1,2,3) in parenthesis gives the values to the length, width, height variable. Calling on new_cube.volume_of_rectangle and new_cube.volume_of_cube returns the values given the values for each variable.
+            If you are curious about the output, this is how it would look^^.
+            <xmp>
+              2
+              6
+            </xmp>
           </p>
       </div>
 
