@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Ji Hyae's blog!</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <div id= "container">
+    <header>
+      <div id= "home">
+        <a id "homepage" href= "http://matae2820.github.io/">Ji Hyae Yu | Home</a>
+      </div>
+    </header>
+      <div id= "navigation">
+        <a href= "http://matae2820.github.io"> Home</a>
+        <a href= "http://matae2820.github.io/blog">Blog</a>
+        <a href= "http://matae2820.github.io/resume">Resume</a>
+        <a href= "http://matae2820.github.io/socialnetwork">Social Network</a>
+      </div>
+    </div>
+
+      <div id= "content">
+        <h1>JavaScript vs. Ruby</h1>
+        <h2>Technical Blog</h2>
+        <h3>May 24, 2015</h3>
+
+        <section>
+          <p>
+            This week I learned the language of JavaScript. Thus far I have been using Ruby for a few weeks so many times I found myself continuously writing Ruby without realizing it. Even though I've only used JavaScript for a week, I think I prefer Javascript over Ruby. It is easier to understand and more organized for my taste. It was very helpful to know Ruby as I was learning JavaScript because I had an idea of what kind of method I wanted. I found that Ruby and JavaScript have many similarties as well as differences. I will talk about the differences between Looping in Ruby vs. Looping in JavaScript.
+          </p>
+          <p>
+            In Ruby, iteration is done by using blocks such as this.
+            <xmp>
+              numbers = [1, 2, 3, 4]
+              numbers.each do |item|
+              puts item
+              end
+            </xmp>
+            Even though iteration can be done in many other ways, this was the most common way I had used it in Ruby. This iterates through the numbers array by setting each variable inside of the numbers array as item and puts the item so the result would look like this.
+            <xmp>
+              1
+              2
+              3
+              4
+            </xmp>
+          </p>
+          <p>
+            In JavaScript, the for loop is used. However, it is used quite differently from Ruby.
+            <xmp>
+              var numbers = [1, 2, 3, 4];
+              for (var i = 0, i < numbers.length; i++) {
+              console.log(numbers[i]);
+              }
+            </xmp>
+            Here, the array numbers is declared using var. The variables inside the numbers array is set as i. The for loop console.log each of the variables,which is the same thing as puts in Ruby, by looping through the for loop until the value of i is not less than the length of the numbers array which is 4. Initially, the value of i is set as zero but after each loop, the value of i is increased by one. This will have the same solution as the one above.
+          </p>
+          <p>
+            As you can see, the concepts are similar for both. However, it is the small details like when something has to be declared or how a method is used that makes up the big difference between Ruby and JavaScript.
+          </p>
+      </div>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+    </section>
+  </main>
+</html>
