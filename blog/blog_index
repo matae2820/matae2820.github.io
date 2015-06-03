@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+  <title>Ji Hyae's blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog_index.css">
+</head>
+
+<main>
+  <div id= "container">
+    <header>
+      <div id= "home">
+        <a id "homepage" href= "http://matae2820.github.io/">Ji Hyae Yu | Home</a>
+      </div>
+    </header>
+      <div id= "navigation">
+        <a href= "http://matae2820.github.io/blog">Blog Homepage</a>
+        <a href="http://matae2820.github.io/photo">Photography</a>
+      </div>
+    </div>
+
+      <div id= "content">
+        <table class= "center">
+          <tr>
+            <th scope= "col">Technical Blogs</th>
+            <th scope= "col">Cultural Blogs</th>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t1-git-blog.html">1. Benefits of Version Control
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c1-chefs-kitchen.html">Thoughts on Shereef's Fireside Chat
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t2-css-design.html">2. The differences between relative, absolute, and fixed positioning
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c3_thinking-style.html">Thinking and Learning Style
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t3-arrays-hashes.html">3. Arrays vs. Hashes in Ruby
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c4-tech-issues.html">Problems facing the tech world and the IT leaders
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t4-enumerable-methods.html">4. Enumerable #group_by
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c5-feedback.html">My thoughts on Pairing and Giving Feedback
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t5-ruby-classes.html">5. Getting classy: What is a class
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c6-stereotype-threat.html">Stereotype Threat
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t6-oop-concepts.html">6. Object Oriented Programming vs. Functional Programming
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c7-values.html">Important Values
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t7-JavaScript.html">7. JavaScript vs. Ruby
+              </a>
+            </td>
+            <td>
+              <a href="http://matae2820.github.io/blog/c8-conflict.html">Facing conflicts
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="http://matae2820.github.io/blog/t8-tech.html">8. Dynamic vs. Static Typed Languages
+              </a>
+            </td>
+          </tr>
+
+        <div id="footer">
+          <h4>Contact Info</h4>
+            <div id="contacts">
+              <p>Feel free to leave me a feedback at matae2820@gmail.com & Tweet me @wisdomtootie</p>
+            </div>
+        </div>
+      </div>
+
+  </main>
+</html>
