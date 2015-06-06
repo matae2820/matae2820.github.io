@@ -20,7 +20,7 @@
 
 a:hover{
   text-decoration:none;
-  color:black;
+  color:#F6A4AC;
 }
 
 a:link{
@@ -99,7 +99,7 @@ h3{
 }
 
 #footer{
-  background-color:#E5F5FA;
+  background-color:#F6A4AC;
   position:absolute;
   height:15%;
   top:33.5em;
